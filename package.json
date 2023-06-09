@@ -1,0 +1,24 @@
+{
+  "engines": {
+    "node": "14.x"
+  },
+  "name": "example-express-js",
+  "version": "1.0.0",
+  "description": "Example Express JS Project deployed to DevTools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DevTools",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2"
+  }
+}
