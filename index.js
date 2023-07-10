@@ -5,7 +5,6 @@ const path = require("path");
 const port = process.env.PORT || 3000;
 expressApp.use(express.static("static"));
 expressApp.use(express.json());
-ex;
 require("dotenv").config();
 var cron = require("node-cron");
 const mentionHtml = `<a href="tg://user?id=5551439813">inline mention of a user</a>`;
