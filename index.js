@@ -5,6 +5,7 @@ const path = require("path");
 const port = process.env.PORT || 3000;
 expressApp.use(express.static("static"));
 expressApp.use(express.json());
+ex;
 require("dotenv").config();
 var cron = require("node-cron");
 const mentionHtml = `<a href="tg://user?id=5551439813">inline mention of a user</a>`;
@@ -17,7 +18,8 @@ const ignoreIds = [nghiChatId, chatId];
 const listeners = [-919328938];
 // const listeners = [-919328938, -1670126524];
 // const sendChatId = noBaId;
-const sendChatId = -985761334;
+const sendChatId = -919111052;
+// const sendChatId = -985761334;
 const fs = require("fs");
 const quoteTags = [
   {
